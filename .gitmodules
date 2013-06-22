@@ -19,3 +19,51 @@
 [submodule "a.vim"]
 	path = a.vim
 	url = git@github.com:vim-scripts/a.vim.git
+[submodule "cscope"]
+	path = cscope
+	url = git@github.com:brookhong/cscope.vim.git
+[submodule "delimitMate"]
+	path = delimitMate
+	url = git@github.com:Raimondi/delimitMate.git
+[submodule "javaComplete"]
+	path = javaComplete
+	url = git@github.com:vim-scripts/javacomplete.git
+[submodule "python_fn"]
+	path = python_fn
+	url = git@github.com:Crapworks/python_fn.vim.git
+[submodule "pythonComplete"]
+	path = pythonComplete
+	url = git@github.com:vim-scripts/pythoncomplete.git
+[submodule "screen"]
+	path = screen
+	url = git@github.com:ervandew/screen.git
+[submodule "taglist"]
+	path = taglist
+	url = git@github.com:vim-scripts/taglist.vim.git
+[submodule "tComment"]
+	path = tComment
+	url = git@github.com:tomtom/tcomment_vim.git
+[submodule "easytags"]
+	path = easytags
+	url = git@github.com:xolox/vim-easytags.git
+[submodule "easytags_misc"]
+	path = easytags_misc
+	url = git@github.com:xolox/vim-misc.git
+[submodule "indentGuides"]
+	path = indentGuides
+	url = git@github.com:nathanaelkane/vim-indent-guides.git
+[submodule "javascript"]
+	path = javascript
+	url = git@github.com:pangloss/vim-javascript.git
+[submodule "signature"]
+	path = signature
+	url = https://github.com/kshenoy/vim-signature
+[submodule "winManager"]
+	path = winManager
+	url = git@github.com:vim-scripts/winmanager.git
+[submodule "cSupport"]
+	path = cSupport
+	url = git@github.com:vim-scripts/c.vim.git
+[submodule "tagHighlight"]
+	path = tagHighlight
+	url = https://github.com/vim-scripts/TagHighlight
