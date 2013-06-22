@@ -1,0 +1,3 @@
+color solarized
+set rtp+=~/.janus/powerline/powerline/bindings/vim
+let g:Powerline_symbols='fancy'

@@ -1,0 +1,4 @@
+set rtp+=~/.janus/powerline/powerline/bindings/vim
+let g:Powerline_symbols='fancy'
+
+map <leader>ta <Plug>TaskList
