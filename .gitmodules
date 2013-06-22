@@ -4,3 +4,18 @@
 [submodule "autoComplPop"]
 	path = autoComplPop
 	url = git@github.com:vim-scripts/AutoComplPop.git
+[submodule "command-t"]
+	path = command-t
+	url = git@github.com:vim-scripts/Command-T.git
+[submodule "omniCppComplete"]
+	path = omniCppComplete
+	url = git@github.com:vim-scripts/OmniCppComplete.git
+[submodule "tasklist"]
+	path = tasklist
+	url = git@github.com:vim-scripts/TaskList.vim.git
+[submodule "r-plugin"]
+	path = r-plugin
+	url = git@github.com:vim-scripts/Vim-R-plugin.git
+[submodule "a.vim"]
+	path = a.vim
+	url = git@github.com:vim-scripts/a.vim.git
