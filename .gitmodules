@@ -1,0 +1,6 @@
+[submodule "powerline"]
+	path = powerline
+	url = git@github.com:Lokaltog/powerline.git
+[submodule "autoComplPop"]
+	path = autoComplPop
+	url = git@github.com:vim-scripts/AutoComplPop.git
