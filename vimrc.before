@@ -72,3 +72,5 @@ let g:winManagerAutoOpen = 0
 let g:winManagerOnRightSide = 1
 let g:persistentBehaviour = 0
 
+"EasyTags
+let g:easytags_updatetime_min=3000
