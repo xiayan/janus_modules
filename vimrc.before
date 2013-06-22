@@ -1,3 +1,10 @@
+"Set up file omnifunctions
+filetype on
+filetype indent on
+filetype plugin on
+set ofu=syntaxcomplete#Complete
+set autoread
+
 map <space> /
 map <leader><space> ?
 map <silent> <leader><cr> :noh<cr>

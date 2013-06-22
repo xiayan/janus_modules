@@ -52,11 +52,11 @@ set wildignore=*.o,*~,*.pyc,*.class
 set backspace=eol,start,indent
 set whichwrap+=<,>,h,l,[,]
 
-filetype on
-filetype indent on
-filetype plugin on
-set ofu=syntaxcomplete#Complete
-set autoread
+" filetype on
+" filetype indent on
+" filetype plugin on
+" set ofu=syntaxcomplete#Complete
+" set autoread
 
 if has("autocmd")
     autocmd FileType python set omnifunc=pythoncomplete#Complete
