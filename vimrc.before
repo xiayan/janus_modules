@@ -74,3 +74,6 @@ let g:persistentBehaviour = 0
 
 "EasyTags
 let g:easytags_updatetime_min=3000
+
+"Disable Endwise
+call janus#disable_plugin('endwise')

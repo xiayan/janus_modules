@@ -70,3 +70,6 @@
 [submodule "headlights"]
 	path = headlights
 	url = git@github.com:mbadran/headlights.git
+[submodule "scrollColors"]
+	path = scrollColors
+	url = git@github.com:vim-scripts/ScrollColors.git

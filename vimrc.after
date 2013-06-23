@@ -35,7 +35,6 @@ set lbr
 set tw=500
 
 set autoindent "Auto indent
-set smartindent "Smart indent
 set wrap "Wrap linep
 
 set hlsearch
@@ -72,4 +71,9 @@ nnoremap <silent> <Leader>b: CommandTBuffer<CR>
 nmap <leader>aa :A<CR>
 nmap <leader>as :AS<CR>
 nmap <leader>av :AV<CR>
+
+"delimitMate
+let delimitMate_expand_space=1
+let delimitMate_expand_cr=1
+imap <expr><CR> SuperTab('n') ? "\<C-n>" : "<Plug>delimitMateCR"
 
