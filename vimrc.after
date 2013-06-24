@@ -10,7 +10,7 @@ set linespace=-1
 
 "ctag update time
 set updatetime=4000
-set tm=500
+set tm=600
 
 set clipboard=unnamed
 
