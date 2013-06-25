@@ -1,11 +1,14 @@
-"Set up file omnifunctions
+" Set up file omnifunctions
 filetype on
 filetype indent on
 filetype plugin on
 set ofu=syntaxcomplete#Complete
 set autoread
 
+" Leave the vim content on screen after quiting vim
 set t_ti= t_te=
+let &winheight = &lines * 7 / 10
+" let &winwidth = &columns * 7 / 10
 
 map <space> /
 map <leader><space> ?

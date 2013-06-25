@@ -73,3 +73,6 @@
 [submodule "scrollColors"]
 	path = scrollColors
 	url = git@github.com:vim-scripts/ScrollColors.git
+[submodule "conqueShell"]
+	path = conqueShell
+	url = git@github.com:vim-scripts/Conque-Shell.git
