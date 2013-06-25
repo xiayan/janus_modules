@@ -5,6 +5,8 @@ filetype plugin on
 set ofu=syntaxcomplete#Complete
 set autoread
 
+set t_ti= t_te=
+
 map <space> /
 map <leader><space> ?
 map <silent> <leader><cr> :noh<cr>
