@@ -236,7 +236,7 @@ function! conque_term#dependency_check() " {{{
             continue
         endif
         if g:ConqueTerm_StartMessages
-            echohl WarningMsg | echomsg "Warning: Global CursorHoldI and CursorMovedI autocommands may cause ConqueTerm to run slowly." | echohl None
+            " echohl WarningMsg | echomsg "Warning: Global CursorHoldI and CursorMovedI autocommands may cause ConqueTerm to run slowly." | echohl None
         endif
     endfor
 

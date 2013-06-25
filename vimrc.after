@@ -9,7 +9,7 @@ set background=dark
 set linespace=-1
 
 "ctag update time
-set updatetime=4000
+set updatetime=3000
 set tm=600
 
 set clipboard=unnamed

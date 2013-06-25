@@ -19,7 +19,7 @@ map j gj
 map k gk
 
 "Move tabs
-nnoremap g<Left> gT 
+nnoremap g<Left> gT
 nnoremap g<Right> gt
 
 " Smart way to move between windows
