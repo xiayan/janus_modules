@@ -78,7 +78,7 @@ let g:winManagerOnRightSide = 1
 let g:persistentBehaviour = 0
 
 "EasyTags
-let g:easytags_updatetime_min=3000
+let g:easytags_updatetime_min=4000
 
 "Disable Endwise
 call janus#disable_plugin('endwise')
