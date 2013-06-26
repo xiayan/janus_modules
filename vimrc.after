@@ -9,7 +9,7 @@ set background=dark
 set linespace=-1
 
 "ctag update time
-set updatetime=3000
+set updatetime=4000
 set tm=600
 
 set clipboard=unnamed
@@ -51,11 +51,23 @@ set wildignore=*.o,*~,*.pyc,*.class
 set backspace=eol,start,indent
 set whichwrap+=<,>,h,l,[,]
 
-" filetype on
-" filetype indent on
-" filetype plugin on
-" set ofu=syntaxcomplete#Complete
-" set autoread
+" Use ctrl-[hjkl] to select the active split!
+nmap <silent> <c-k> :wincmd k<CR>
+nmap <silent> <c-j> :wincmd j<CR>
+nmap <silent> <c-h> :wincmd h<CR>
+nmap <silent> <c-l> :wincmd l<CR>
+nmap <silent> <c-E> :wincmd =<CR>
+
+" Line traversal in Insertion Mode
+inoremap <leader>ii <Esc>I
+inoremap <leader>aa <Esc>A
+inoremap <leader>oO <Esc>O
+inoremap <leader>oo <Esc>o
+inoremap <leader>cc <Esc>C
+inoremap <leader>ss <Esc>S
+inoremap <leader>dd <Esc>ddi
+inoremap <leader>uu <Esc>ui
+inoremap <leader>00 <Esc><C-v>i)s
 
 if has("autocmd")
     autocmd FileType python set omnifunc=pythoncomplete#Complete

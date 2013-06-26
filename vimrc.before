@@ -8,7 +8,6 @@ set autoread
 " Leave the vim content on screen after quiting vim
 set t_ti= t_te=
 let &winheight = &lines * 7 / 10
-" let &winwidth = &columns * 7 / 10
 
 map <space> /
 map <leader><space> ?
@@ -22,28 +21,12 @@ map k gk
 nnoremap g<Left> gT
 nnoremap g<Right> gt
 
-" Smart way to move between windows
-map <C-j> <C-w>j
-map <C-k> <C-w>k
-map <C-h> <C-w>h
-map <C-l> <C-w>l
 
 " Useful mappings for managing tabs
 map <leader>tn :tabnew<cr>
 map <leader>to :tabonly<cr>
 map <leader>tc :tabclose<cr>
 map <leader>tm :tabmove
-
-" Line traversal in Insertion Mode
-inoremap <leader>ii <Esc>I
-inoremap <leader>aa <Esc>A
-inoremap <leader>oO <Esc>O
-inoremap <leader>oo <Esc>o
-inoremap <leader>cc <Esc>C
-inoremap <leader>ss <Esc>S
-inoremap <leader>dd <Esc>ddi
-inoremap <leader>uu <Esc>ui
-inoremap <leader>00 <Esc><C-v>i)s
 
 "Mapping for quick directory change
 nnoremap ,cd :cd %:p:h<CR>:pwd<CR>
@@ -78,7 +61,7 @@ let g:winManagerOnRightSide = 1
 let g:persistentBehaviour = 0
 
 "EasyTags
-let g:easytags_updatetime_min=4000
+let g:easytags_updatetime_min=3000
 
 "Disable Endwise
 call janus#disable_plugin('endwise')
