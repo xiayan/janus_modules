@@ -76,3 +76,18 @@
 [submodule "conqueShell"]
 	path = conqueShell
 	url = git@github.com:vim-scripts/Conque-Shell.git
+[submodule "youCompleteMe"]
+	path = youCompleteMe
+	url = git@github.com:Valloric/YouCompleteMe.git
+[submodule "repl"]
+	path = repl
+	url = https://github.com/khorser/vim-repl.git
+[submodule "vimproc"]
+	path = vimproc
+	url = https://github.com/Shougo/vimproc.vim.git
+[submodule "closetag.vim"]
+	path = closetag.vim
+	url = https://github.com/vim-scripts/closetag.vim.git
+[submodule "autoCloseTag"]
+	path = autoCloseTag
+	url = https://github.com/vim-scripts/HTML-AutoCloseTag.git

@@ -8,6 +8,7 @@ set autoread
 " Leave the vim content on screen after quiting vim
 set t_ti= t_te=
 let &winheight = &lines * 7 / 10
+" let &winwidth = &columns * 6 / 10
 
 map <space> /
 map <leader><space> ?
@@ -64,4 +65,7 @@ let g:persistentBehaviour = 0
 let g:easytags_updatetime_min=3000
 
 "Disable Endwise
+call janus#disable_plugin('repl')
 call janus#disable_plugin('endwise')
+call janus#disable_plugin('closetag.vim')
+" call janus#disable_plugin('snipmate')
