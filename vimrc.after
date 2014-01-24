@@ -5,8 +5,28 @@ set laststatus=2
 set encoding=utf-8
 
 syntax enable
-set background=dark
 set linespace=-1
+
+" Set up background color based on time of day
+if strftime("%H") > 5 && strftime("%H") < 18
+  set background=light
+else
+  set background=dark
+endif
+
+function! ReverseBackground()
+    let Mysyn=&syntax
+    if &bg=="light"
+        se bg=dark
+    else
+        se bg=light
+    endif
+    syn on
+    exe "set syntax=" . Mysyn
+endfunction
+command! Invbg call ReverseBackground()
+noremap <F6> :Invbg<CR>
+
 
 "ctag update time
 set updatetime=4000
