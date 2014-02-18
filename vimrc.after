@@ -6,6 +6,7 @@ set encoding=utf-8
 
 syntax enable
 set linespace=-1
+inoremap ;; <Esc>
 
 " Set up background color based on time of day
 if strftime("%H") > 5 && strftime("%H") < 18
@@ -30,7 +31,7 @@ noremap <F6> :Invbg<CR>
 
 "ctag update time
 set updatetime=4000
-set tm=600
+set tm=300
 
 set clipboard=unnamed
 
@@ -79,15 +80,23 @@ nmap <silent> <c-l> :wincmd l<CR>
 nmap <silent> <c-E> :wincmd =<CR>
 
 " Line traversal in Insertion Mode
-inoremap <leader>ii <Esc>I
-inoremap <leader>aa <Esc>A
-inoremap <leader>oO <Esc>O
-inoremap <leader>oo <Esc>o
-inoremap <leader>cc <Esc>C
-inoremap <leader>ss <Esc>S
-inoremap <leader>dd <Esc>ddi
-inoremap <leader>uu <Esc>ui
-inoremap <leader>00 <Esc><C-v>i)s
+" inoremap <leader>ii <Esc>I
+" inoremap <leader>aa <Esc>A
+" inoremap <leader>oO <Esc>O
+" inoremap <leader>oo <Esc>o
+" inoremap <leader>cc <Esc>C
+" inoremap <leader>ss <Esc>S
+" inoremap <leader>dd <Esc>ddi
+" inoremap <leader>uu <Esc>ui
+" inoremap <leader>00 <Esc><C-v>i)s
+nmap <Left> <<
+nmap <Right> >>
+vmap <Left> <gv
+vmap <Right> >gv
+nmap <Up> [e
+nmap <Down> ]e
+vmap <Up> [egv
+vmap <Down> ]egv
 
 if has("autocmd")
     autocmd FileType python set omnifunc=pythoncomplete#Complete

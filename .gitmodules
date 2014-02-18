@@ -97,3 +97,6 @@
 [submodule "airline"]
 	path = airline
 	url = https://github.com/bling/vim-airline
+[submodule "promptline"]
+	path = promptline
+	url = https://github.com/edkolev/promptline.vim.git
