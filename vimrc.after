@@ -6,7 +6,15 @@ set encoding=utf-8
 
 syntax enable
 set linespace=-1
-inoremap ;; <Esc>
+" inoremap ;; <Esc>
+
+" map Ctrl-S to save
+" nmap <c-s> :w<CR>
+" imap <c-s> <Esc>:w<CR>a
+" imap <c-s> <Esc><c-s>
+noremap <silent> <C-S>          :update<CR>
+vnoremap <silent> <C-S>         <C-C>:update<CR>
+inoremap <silent> <C-S>         <C-O>:update<CR>
 
 " Set up background color based on time of day
 if strftime("%H") > 5 && strftime("%H") < 18
