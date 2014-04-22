@@ -4,9 +4,6 @@
 [submodule "autoComplPop"]
 	path = autoComplPop
 	url = git@github.com:vim-scripts/AutoComplPop.git
-[submodule "command-t"]
-	path = command-t
-	url = git@github.com:vim-scripts/Command-T.git
 [submodule "omniCppComplete"]
 	path = omniCppComplete
 	url = git@github.com:vim-scripts/OmniCppComplete.git
@@ -34,9 +31,6 @@
 [submodule "pythonComplete"]
 	path = pythonComplete
 	url = git@github.com:vim-scripts/pythoncomplete.git
-[submodule "screen"]
-	path = screen
-	url = git@github.com:ervandew/screen.git
 [submodule "taglist"]
 	path = taglist
 	url = git@github.com:vim-scripts/taglist.vim.git
@@ -79,15 +73,9 @@
 [submodule "youCompleteMe"]
 	path = youCompleteMe
 	url = git@github.com:Valloric/YouCompleteMe.git
-[submodule "repl"]
-	path = repl
-	url = https://github.com/khorser/vim-repl.git
 [submodule "vimproc"]
 	path = vimproc
 	url = https://github.com/Shougo/vimproc.vim.git
-[submodule "closetag.vim"]
-	path = closetag.vim
-	url = https://github.com/vim-scripts/closetag.vim.git
 [submodule "autoCloseTag"]
 	path = autoCloseTag
 	url = https://github.com/vim-scripts/HTML-AutoCloseTag.git
@@ -100,3 +88,6 @@
 [submodule "promptline"]
 	path = promptline
 	url = https://github.com/edkolev/promptline.vim.git
+[submodule "neocomplete"]
+	path = neocomplete
+	url = https://github.com/Shougo/neocomplete.vim.git

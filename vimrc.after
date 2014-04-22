@@ -39,7 +39,7 @@ noremap <F6> :Invbg<CR>
 
 "ctag update time
 set updatetime=4000
-set tm=300
+set tm=500
 
 set clipboard=unnamed
 
@@ -126,3 +126,9 @@ let delimitMate_expand_space=1
 let delimitMate_expand_cr=1
 imap <expr><CR> SuperTab('n') ? "\<C-n>" : "<Plug>delimitMateCR"
 
+" alias for removing all trailing lines
+command RmTrailing %s/\s\+$//
+
+let g:syntastic_cpp_check_header = 1
+let g:syntastic_cpp_include_dirs = [ '/Users/yanxia/Rosetta/main/source/src' ]
+let g:syntastic_cpp_compiler = 'clang++'
