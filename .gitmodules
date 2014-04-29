@@ -55,9 +55,6 @@
 [submodule "winManager"]
 	path = winManager
 	url = git@github.com:vim-scripts/winmanager.git
-[submodule "cSupport"]
-	path = cSupport
-	url = git@github.com:vim-scripts/c.vim.git
 [submodule "tagHighlight"]
 	path = tagHighlight
 	url = https://github.com/vim-scripts/TagHighlight
@@ -85,9 +82,3 @@
 [submodule "airline"]
 	path = airline
 	url = https://github.com/bling/vim-airline
-[submodule "promptline"]
-	path = promptline
-	url = https://github.com/edkolev/promptline.vim.git
-[submodule "neocomplete"]
-	path = neocomplete
-	url = https://github.com/Shougo/neocomplete.vim.git

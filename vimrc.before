@@ -62,18 +62,19 @@ map <leader>tl :execute 'TlistToggle '<CR><C-W><Left><BS>
 let g:indent_guides_guide_size=1
 
 "WinManager
-map <leader>wm :execute 'WMToggle'<CR>
-let g:winManagerWindowLayout = "FileExplorer|TagList"
-let g:winManagerWidth = 30
-let g:winManagerAutoOpen = 0
-let g:winManagerOnRightSide = 1
-let g:persistentBehaviour = 0
+" map <leader>wm :execute 'WMToggle'<CR>
+" let g:winManagerWindowLayout = "FileExplorer|TagList"
+" let g:winManagerWidth = 30
+" let g:winManagerAutoOpen = 0
+" let g:winManagerOnRightSide = 1
+" let g:persistentBehaviour = 0
 
 "EasyTags
 let g:easytags_updatetime_min=3000
 
 "Disable Endwise
-call janus#disable_plugin('repl')
 call janus#disable_plugin('endwise')
-call janus#disable_plugin('closetag.vim')
+call janus#disable_plugin('nerdcommenter')
+call janus#disable_plugin('winManager')
+call janus#disable_plugin('ack')
 " call janus#disable_plugin('snipmate')

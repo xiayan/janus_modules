@@ -1,5 +1,4 @@
 color solarized
-
 set nocompatible
 set laststatus=2
 set encoding=utf-8
@@ -125,9 +124,6 @@ nmap <leader>av :AV<CR>
 let delimitMate_expand_space=1
 let delimitMate_expand_cr=1
 imap <expr><CR> SuperTab('n') ? "\<C-n>" : "<Plug>delimitMateCR"
-
-" alias for removing all trailing lines
-command RmTrailing %s/\s\+$//
 
 let g:syntastic_cpp_check_header = 1
 let g:syntastic_cpp_include_dirs = [ '/Users/yanxia/Rosetta/main/source/src' ]
