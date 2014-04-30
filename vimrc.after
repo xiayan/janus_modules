@@ -1,4 +1,4 @@
-color solarized
+color Tomorrow-Night
 set nocompatible
 set laststatus=2
 set encoding=utf-8
@@ -16,11 +16,11 @@ vnoremap <silent> <C-S>         <C-C>:update<CR>
 inoremap <silent> <C-S>         <C-O>:update<CR>
 
 " Set up background color based on time of day
-if strftime("%H") > 5 && strftime("%H") < 18
-  set background=light
-else
-  set background=dark
-endif
+" if strftime("%H") > 5 && strftime("%H") < 18
+"   set background=light
+" else
+"   set background=dark
+" endif
 
 function! ReverseBackground()
     let Mysyn=&syntax
@@ -34,7 +34,6 @@ function! ReverseBackground()
 endfunction
 command! Invbg call ReverseBackground()
 noremap <F6> :Invbg<CR>
-
 
 "ctag update time
 set updatetime=4000
@@ -111,10 +110,6 @@ if has("autocmd")
 endif
 let g:SuperTabDefaultCompletionType = "context"
 
-"CommandT
-nnoremap <silent> <Leader>t :CommandT<CR>
-nnoremap <silent> <Leader>b: CommandTBuffer<CR>
-
 "a.vim
 nmap <leader>aa :A<CR>
 nmap <leader>as :AS<CR>
@@ -128,3 +123,4 @@ imap <expr><CR> SuperTab('n') ? "\<C-n>" : "<Plug>delimitMateCR"
 let g:syntastic_cpp_check_header = 1
 let g:syntastic_cpp_include_dirs = [ '/Users/yanxia/Rosetta/main/source/src' ]
 let g:syntastic_cpp_compiler = 'clang++'
+

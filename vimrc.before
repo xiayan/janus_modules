@@ -72,9 +72,10 @@ let g:indent_guides_guide_size=1
 "EasyTags
 let g:easytags_updatetime_min=3000
 
-"Disable Endwise
+"Disable bundles
+call janus#disable_plugin('ack')
 call janus#disable_plugin('endwise')
 call janus#disable_plugin('nerdcommenter')
+call janus#disable_plugin('tagbar')
 call janus#disable_plugin('winManager')
-call janus#disable_plugin('ack')
 " call janus#disable_plugin('snipmate')
