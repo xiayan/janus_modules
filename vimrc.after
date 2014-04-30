@@ -5,8 +5,10 @@ set encoding=utf-8
 
 syntax enable
 set linespace=-1
-" inoremap ;; <Esc>
+" set showbreak=↪
+set showbreak=⇇
 
+" inoremap ;; <Esc>
 " map Ctrl-S to save
 " nmap <c-s> :w<CR>
 " imap <c-s> <Esc>:w<CR>a
