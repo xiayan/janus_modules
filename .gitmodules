@@ -55,9 +55,6 @@
 [submodule "winManager"]
 	path = winManager
 	url = git@github.com:vim-scripts/winmanager.git
-[submodule "tagHighlight"]
-	path = tagHighlight
-	url = https://github.com/vim-scripts/TagHighlight
 [submodule "headlights"]
 	path = headlights
 	url = git@github.com:mbadran/headlights.git
