@@ -79,3 +79,9 @@
 [submodule "tabular"]
 	path = tabular
 	url = https://github.com/godlygeek/tabular.git
+[submodule "tagHighlight"]
+	path = tagHighlight
+	url = https://github.com/vim-scripts/TagHighlight.git
+[submodule "jedi-vim"]
+	path = jedi-vim
+	url = https://github.com/davidhalter/jedi-vim.git
